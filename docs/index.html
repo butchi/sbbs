@@ -6,11 +6,17 @@
 </head>
 <body>
   <div class="wrapper">
+    <div>
+      <p class="disp-name"></p>
+      <p class="disp-image"></p>
+    </div>
+
     <form method="POST" data-js-id="form">
       <input type="submit" value="書き込む" name="submit">
       名前：<input name="name" size="19">
       E-mail：<input name="email" size="19"><br>
       <textarea rows="5" cols="64" wrap="OFF" name="body"></textarea>
+      <input type="file" name="image">
     </form>
   </div>
 
